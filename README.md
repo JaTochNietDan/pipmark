@@ -2,6 +2,8 @@
 
 **Your app badges, at a glance.**
 
+[Website](https://pipmark.oleary.club) · [Download](https://github.com/JaTochNietDan/pipmark/releases/latest)
+
 Pipmark brings macOS app notification badges into the menu bar. Choose your apps,
 group them together, and customize their icons, counts, and visibility—all in a
 compact native interface built with Rust and AppKit.
