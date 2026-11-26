@@ -2,7 +2,7 @@
 
 **Your app badges, at a glance.**
 
-[Website](https://pipmark.oleary.club) · [Download](https://github.com/JaTochNietDan/pipmark/releases/latest)
+[Website](https://pipmark.io) · [Download](https://github.com/JaTochNietDan/pipmark/releases/latest)
 
 Pipmark brings macOS app notification badges into the menu bar. Choose your apps,
 group them together, and customize their icons, counts, and visibility—all in a
@@ -28,7 +28,8 @@ open dist/Pipmark.app
 Use `mise run package-signed` for a Developer ID–signed archive. Sparkle's framework
 is downloaded at a pinned version with SHA-256 verification. See
 [update and release setup](docs/UPDATES.md) for notarization and feed generation.
-The GitHub update feed is configured but not published yet.
+Tagged releases build, sign, notarize, and publish automatically on GitHub.
+The Sparkle feed is live alongside the latest normal release.
 
 Settings are stored in `~/Library/Application Support/Pipmark/settings.json`.
 Existing Badgeify Native settings are reused if present. Set `PIPMARK_CONFIG` for

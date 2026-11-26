@@ -1,7 +1,7 @@
 # Pipmark website
 
 A buildless landing page served by Cloudflare Worker `pipmark-site` at
-https://pipmark.oleary.club. No GitHub Pages deployment is used.
+https://pipmark.io. No GitHub Pages deployment is used.
 
 Preview: `python3 -m http.server 8137 --directory site` from the repository root.
 
@@ -12,4 +12,4 @@ static assets in one Worker module, with no runtime dependencies or third-party
 requests. The download link points to the latest normal GitHub release.
 
 The custom domain and Cloudflare-managed DNS/certificate are tracked in the ops
-repository at `terraform/zones/oleary.club/pipmark.tf`. The code is managed here.
+repository at `terraform/zones/pipmark.io/main.tf`. The code is managed here.

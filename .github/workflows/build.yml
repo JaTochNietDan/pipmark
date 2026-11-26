@@ -2,6 +2,7 @@ name: Build
 on:
   push:
     branches: [main]
+    paths-ignore: ["site/**", "docs/**", "README.md", "scripts/deploy_site.py"]
   pull_request:
   workflow_dispatch:
 permissions:

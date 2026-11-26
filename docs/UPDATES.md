@@ -7,14 +7,15 @@ updater controller, and lets Sparkle own scheduling, consent and update UI.
 Unbundled development/test binaries do not start the updater.
 
 The feed is `https://github.com/JaTochNietDan/pipmark/releases/latest/download/appcast.xml`.
-That endpoint becomes available when the GitHub release and feed are published.
+The endpoint is live and was verified against the published 0.1.0 archive.
 Automatic checks use Sparkle's consent flow and a daily interval. Automatic
 installation is disabled by default; users review available updates.
 
-The Ed25519 private key stays in macOS Keychain under account
+The local Ed25519 private key is kept in macOS Keychain under account
 `club.oleary.pipmark`; the public key is embedded in Info.plist. Never commit the
-private key. GitHub-hosted signing will require securely provisioned signing
-credentials; local signing uses the existing Keychain.
+private key. GitHub Actions signing credentials are provisioned as encrypted repository
+secrets. The CI job uses a disposable keychain and removes it after signing.
+Local signing uses the existing Keychain.
 
 Release order:
 
@@ -31,3 +32,8 @@ An actual older-to-newer installation test is still required before publishing.
 
 Initial 0.1.0 notarization was accepted by Apple on 2026-11-25. The ticket was
 stapled and Gatekeeper reports Notarized Developer ID.
+
+GitHub Release run 45742615962 passed and published v0.1.0 as a normal release.
+The public download passed SHA-256, Sparkle Ed25519, deep codesign, stapler, and
+Gatekeeper verification. The website runs on Cloudflare Workers; GitHub hosts
+source, build workflows, release archives, and the update feed.

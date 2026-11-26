@@ -758,3 +758,11 @@ and loads Sparkle.framework in a process smoke check. CUA launch timed out, so
 no click-through update-dialog verification is claimed. A signed appcast was
 generated successfully. Public feed publication, notarization and a full
 older-to-newer update installation remain pending.
+
+### Published release validation
+
+GitHub Actions built and published normal release v0.1.0. Apple notarization
+accepted it; the downloaded archive passes its checksum, Sparkle signature, deep
+code signature, stapled ticket, and Gatekeeper checks. The update feed is public.
+A full older-to-newer installation test and live badge validation with granted
+Accessibility remain unverified.

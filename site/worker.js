@@ -1,6 +1,12 @@
 export default {
   async fetch(request) {
-    const path = new URL(request.url).pathname;
+    const url = new URL(request.url);
+    if (url.hostname === 'www.pipmark.io') {
+      url.hostname = 'pipmark.io';
+      url.protocol = 'https:';
+      return Response.redirect(url.toString(), 301);
+    }
+    const path = url.pathname;
     if (!['GET', 'HEAD'].includes(request.method)) return new Response('Method not allowed', {status:405,headers:{Allow:'GET, HEAD'}});
     const asset = ASSETS[path === '/' ? '/index.html' : path];
     if (!asset) return new Response('Not found', {status:404});
