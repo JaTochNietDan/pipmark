@@ -37,3 +37,9 @@ GitHub Release run 45742615962 passed and published v0.1.0 as a normal release.
 The public download passed SHA-256, Sparkle Ed25519, deep codesign, stapler, and
 Gatekeeper verification. The website runs on Cloudflare Workers; GitHub hosts
 source, build workflows, release archives, and the update feed.
+
+The primary distribution is now a signed, notarized DMG with an Applications
+shortcut. CI notarizes/staples the app, creates the DMG, then notarizes/staples
+the image before generating its checksum and Sparkle signature. The feed points
+to the versioned DMG; the website /download endpoint selects the latest DMG.
+ZIP assets are retained as a secondary format.

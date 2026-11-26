@@ -32,6 +32,7 @@ jobs:
         with:
           name: signed-release
           path: |
+            dist/pipmark-*.dmg
             dist/pipmark-*.zip
             dist/pipmark-*.json
             dist/pipmark-*.sha256
@@ -39,4 +40,4 @@ jobs:
       - name: Publish normal release
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create "$GITHUB_REF_NAME" dist/pipmark-*.zip dist/pipmark-*.json dist/pipmark-*.sha256 dist/appcast.xml --verify-tag --title "Pipmark $GITHUB_REF_NAME" --generate-notes --latest
+        run: gh release create "$GITHUB_REF_NAME" dist/pipmark-*.dmg dist/pipmark-*.zip dist/pipmark-*.json dist/pipmark-*.sha256 dist/appcast.xml --verify-tag --title "Pipmark $GITHUB_REF_NAME" --generate-notes --latest

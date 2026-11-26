@@ -19,7 +19,10 @@ jobs:
       - uses: jdx/mise-action@5228313ee0372e111a38da051671ca30fc5a96db
       - run: mise exec -- cargo test --locked
       - run: mise run package
+      - run: python3 scripts/dmg.py --bundle dist/Pipmark.app
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: pipmark-macos-build
-          path: dist/pipmark-*.zip
+          path: |
+            dist/pipmark-*.zip
+            dist/pipmark-*.dmg

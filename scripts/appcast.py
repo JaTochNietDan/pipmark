@@ -1,4 +1,4 @@
-"""Generate a signed Sparkle feed from one finalized (notarized/stapled) ZIP."""
+"""Generate a signed Sparkle feed from one finalized (notarized/stapled) disk image or ZIP."""
 import argparse
 import os
 from pathlib import Path

@@ -2,7 +2,7 @@
 
 **Your app badges, at a glance.**
 
-[Website](https://pipmark.io) · [Download](https://github.com/JaTochNietDan/pipmark/releases/latest)
+[Website](https://pipmark.io) · [Download DMG](https://pipmark.io/download)
 
 Pipmark brings macOS app notification badges into the menu bar. Choose your apps,
 group them together, and customize their icons, counts, and visibility—all in a
@@ -25,7 +25,7 @@ mise run build
 open dist/Pipmark.app
 ```
 
-Use `mise run package-signed` for a Developer ID–signed archive. Sparkle's framework
+Use `mise run dmg` for a Developer ID–signed disk image. Sparkle's framework
 is downloaded at a pinned version with SHA-256 verification. See
 [update and release setup](docs/UPDATES.md) for notarization and feed generation.
 Tagged releases build, sign, notarize, and publish automatically on GitHub.

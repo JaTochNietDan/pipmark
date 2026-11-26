@@ -766,3 +766,16 @@ accepted it; the downloaded archive passes its checksum, Sparkle signature, deep
 code signature, stapled ticket, and Gatekeeper checks. The update feed is public.
 A full older-to-newer installation test and live badge validation with granted
 Accessibility remain unverified.
+
+### DMG distribution and Sparkle idle baseline
+
+The signed DMG and enclosed app are both notarized and stapled. A read-only
+mount verified the app and Applications symlink. The published DMG checksum and
+Sparkle signature were verified after download. CI now builds a DMG and normal
+releases use it in the update feed.
+
+With one configured app and Accessibility denied, the first 30-second published
+build idle sample used 0.51 CPU seconds (1.70% average). A repeat 60-second sample
+used 0.04 CPU seconds (0.067% average), with peak sampled RSS 86.86 MiB. These
+measurements include Sparkle; they do not establish granted-Accessibility cost.
+The differing first-run cost has not been attributed to a specific subsystem.

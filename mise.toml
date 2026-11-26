@@ -20,3 +20,7 @@ run = "python3 scripts/package.py"
 [tasks.package-signed]
 depends = ["build"]
 run = ["python3 scripts/sign_release.py", "python3 scripts/package.py --bundle 'dist/developer-id/Pipmark.app'"]
+
+[tasks.dmg]
+depends = ["package-signed"]
+run = "python3 scripts/dmg.py --sign"
