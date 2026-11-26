@@ -1,0 +1,11 @@
+{
+  "binary": "/Users/jatochnietdan/Workarea/badgeify/dist/developer-id/Badgeify Native.app/Contents/MacOS/BadgeifyNative",
+  "exit_code": 1,
+  "result": {
+    "error": {
+      "code": "NO_PERMISSIONS",
+      "message": "Accessibility permission is required to read Dock badges"
+    },
+    "success": false
+  }
+}

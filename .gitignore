@@ -1,0 +1,10 @@
+/target/
+/dist/
+.DS_Store
+
+# Local signing material must never be committed.
+*.p8
+*.p12
+*.key
+.env*
+mise.local.toml

@@ -1,0 +1,18 @@
+{
+  "binary": "/Users/jatochnietdan/Workarea/badgeify/dist/Badgeify Native.app/Contents/MacOS/BadgeifyNative",
+  "duration_seconds": 60.0132726659067,
+  "configured_apps": 1,
+  "settings_window": "closed",
+  "status_probe": {
+    "error": {
+      "code": "NO_PERMISSIONS",
+      "message": "Accessibility permission is required to read Dock badges"
+    },
+    "success": false
+  },
+  "cpu_seconds_delta": 0.009999999999999981,
+  "average_cpu_percent": 0.016662980630418014,
+  "peak_sampled_rss_mib": 85.296875,
+  "measurement": "ps cumulative CPU time delta, 0.01 second resolution; 5 second warmup",
+  "limitation": "No badge changes generated; no successful AX observation unless status_probe.success is true"
+}

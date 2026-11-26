@@ -1,0 +1,22 @@
+[tools]
+rust = "1.99.1"
+
+[tasks.check]
+run = "cargo check"
+
+[tasks.test]
+run = "cargo test"
+
+[tasks.run]
+run = "cargo run"
+
+[tasks.build]
+run = "bash scripts/bundle.sh"
+
+[tasks.package]
+depends = ["build"]
+run = "python3 scripts/package.py"
+
+[tasks.package-signed]
+depends = ["build"]
+run = ["python3 scripts/sign_release.py", "python3 scripts/package.py --bundle 'dist/developer-id/Pipmark.app'"]

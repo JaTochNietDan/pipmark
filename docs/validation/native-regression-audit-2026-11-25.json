@@ -1,0 +1,99 @@
+[
+  {
+    "check": "check_app_drop",
+    "exit_code": 0,
+    "stdout": "Private file pasteboard, mixed URL filtering, bundle display name, persistence, duplicates, and weak drop-view ownership passed.",
+    "stderr": "sandbox_extension_consume failed: 1 (Operation not permitted)"
+  },
+  {
+    "check": "check_app_resolution",
+    "exit_code": 0,
+    "stdout": "Native bundle lookup repairs stale paths, rejects mismatched IDs, preserves missing apps/preferences/groups, and only saves changed metadata.",
+    "stderr": ""
+  },
+  {
+    "check": "check_appearance",
+    "exit_code": 0,
+    "stdout": "Production appearance callback, cached unread redraw, and observer cleanup passed.",
+    "stderr": ""
+  },
+  {
+    "check": "check_attention",
+    "exit_code": 0,
+    "stdout": "Native attention install/clear passed; Reduce Motion=false. Visual cadence and energy use not measured.",
+    "stderr": ""
+  },
+  {
+    "check": "check_group_menu",
+    "exit_code": 0,
+    "stdout": "Native menu update callback, nested aggregates, icons, privacy, action tags and missing-data cleanup passed.",
+    "stderr": ""
+  },
+  {
+    "check": "check_list_selection",
+    "exit_code": 0,
+    "stdout": "Native row highlighting, toggle-off, selection retention/pruning, grouping, and ordinary-click editing passed.",
+    "stderr": ""
+  },
+  {
+    "check": "check_localization",
+    "exit_code": 0,
+    "stdout": "German/Japanese native menus, selected-language checks and app-name preservation passed.",
+    "stderr": "",
+    "initial_failure": "thread 'main' (32072451) panicked at examples/check_localization.rs:41:13:\nassertion `left == right` failed\n  left: \"\u00dcber Badgeify Native\"\n right: \"Badgeify Native-Einstellungen\u2026\"\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace"
+  },
+  {
+    "check": "check_localized_text",
+    "exit_code": 0,
+    "stdout": "Translated form labels and compact navigation fit native font measurements in all supported languages.",
+    "stderr": ""
+  },
+  {
+    "check": "check_monitor_delivery",
+    "exit_code": 0,
+    "stdout": "Production AppKit completion callback delivered synthetic count in 11 ms; one scan, no timer.",
+    "stderr": ""
+  },
+  {
+    "check": "check_read_failure",
+    "exit_code": 0,
+    "stdout": "Initial failure, unchanged-error redraw suppression, changed errors, recovery and stale-count cleanup passed.",
+    "stderr": ""
+  },
+  {
+    "check": "check_row_drop",
+    "exit_code": 0,
+    "stdout": "Native drop geometry, before/after markers, self/missing rejection, persisted reorder, and invalid-drop preservation, bounded edge scrolling, and resized viewport checks passed.",
+    "stderr": ""
+  },
+  {
+    "check": "check_running",
+    "exit_code": 0,
+    "stdout": "Running/stopped indicator, notification independence, opt-out and all icon sizes passed.",
+    "stderr": ""
+  },
+  {
+    "check": "check_settings_commit",
+    "exit_code": 0,
+    "stdout": "Failed settings commit preserves live state and disk; successful commit publishes saved state and retains backup.",
+    "stderr": ""
+  },
+  {
+    "check": "check_status_reuse",
+    "exit_code": 0,
+    "stdout": "Status identities survive rename, language, disable, and row reorder; only removed/new items change identity, and stale button state is cleared.",
+    "stderr": ""
+  },
+  {
+    "check": "check_trash_item",
+    "exit_code": 0,
+    "stdout": "Trash persists once, renders an icon, starts no idle monitor, suppresses duplicate opens, and releases completed actions.",
+    "stderr": ""
+  },
+  {
+    "check": "check_window_recovery",
+    "exit_code": 0,
+    "stdout": "Keyboard delivery unavailable: window server did not grant key-window status.\nHidden-status reopen, native close, retained window recovery, shortcut bindings and no-monitor checks passed.",
+    "stderr": ""
+  }
+]

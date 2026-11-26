@@ -1,0 +1,8 @@
+{
+  "bundle": "/Users/jatochnietdan/Workarea/badgeify/dist/developer-id/Badgeify Native.app",
+  "developer_id_signed": true,
+  "hardened_runtime": true,
+  "secure_timestamp": true,
+  "signature_verified": true,
+  "notarization": "not_submitted"
+}

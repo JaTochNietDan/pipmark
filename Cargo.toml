@@ -1,0 +1,22 @@
+[package]
+name = "pipmark"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+objc2 = "0.6"
+block2 = "0.6"
+dispatch2 = "0.3"
+objc2-foundation = "0.3"
+objc2-app-kit = "0.3"
+objc2-quartz-core = "0.3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+resvg = { version = "0.48.1", default-features = false, features = ["text", "system-fonts", "raster-images"] }
+objc2-service-management = "0.3"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"

@@ -1,0 +1,24 @@
+{
+  "binary": "/Users/jatochnietdan/Workarea/badgeify/target/release/examples/idle_fixture",
+  "duration_seconds": 60.01973137499999,
+  "configured_apps": 4,
+  "settings_window": "closed",
+  "status_probe": {
+    "success": false,
+    "not_probed": "synthetic data; no AX calls"
+  },
+  "cpu_seconds_delta": 0.010000000000000009,
+  "average_cpu_percent": 0.016661187531014688,
+  "peak_sampled_rss_mib": 62.953125,
+  "measurement": "ps cumulative CPU time delta, 0.01 second resolution; 5 second warmup",
+  "limitation": "Synthetic unread data; production AppKit controls, timer and worker, but no AX IPC. Compositor visibility depends on the desktop session.",
+  "fixture": {
+    "animated": false,
+    "configured_apps": 4,
+    "reduce_motion": false,
+    "scans": 23,
+    "synthetic": true,
+    "unchanged_images_reused": true,
+    "unread_each": 12
+  }
+}

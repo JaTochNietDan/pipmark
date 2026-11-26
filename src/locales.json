@@ -1,0 +1,1024 @@
+{
+  "Settings…": [
+    "Einstellungen…",
+    "設定…",
+    "설정…",
+    "设置…",
+    "設定…"
+  ],
+  "Quit Pipmark": [
+    "Pipmark beenden",
+    "Pipmarkを終了",
+    "Pipmark 종료",
+    "退出 Pipmark",
+    "結束 Pipmark"
+  ],
+  "Language": [
+    "Sprache",
+    "言語",
+    "언어",
+    "语言",
+    "語言"
+  ],
+  "System Default": [
+    "Systemstandard",
+    "システム設定に従う",
+    "시스템 기본값",
+    "跟随系统",
+    "跟隨系統"
+  ],
+  "Edit": [
+    "Bearbeiten",
+    "編集",
+    "편집",
+    "编辑",
+    "編輯"
+  ],
+  "Undo": [
+    "Widerrufen",
+    "取り消す",
+    "실행 취소",
+    "撤销",
+    "復原"
+  ],
+  "Cut": [
+    "Ausschneiden",
+    "カット",
+    "잘라내기",
+    "剪切",
+    "剪下"
+  ],
+  "Copy": [
+    "Kopieren",
+    "コピー",
+    "복사",
+    "复制",
+    "拷貝"
+  ],
+  "Paste": [
+    "Einsetzen",
+    "ペースト",
+    "붙여넣기",
+    "粘贴",
+    "貼上"
+  ],
+  "Select All": [
+    "Alles auswählen",
+    "すべてを選択",
+    "모두 선택",
+    "全选",
+    "全選"
+  ],
+  "Add Application…": [
+    "App hinzufügen…",
+    "アプリを追加…",
+    "앱 추가…",
+    "添加应用…",
+    "加入 App…"
+  ],
+  "Pipmark Settings…": [
+    "Pipmark-Einstellungen…",
+    "Pipmarkの設定…",
+    "Pipmark 설정…",
+    "Pipmark 设置…",
+    "Pipmark 設定…"
+  ],
+  "Default Appearance…": [
+    "Standarddarstellung…",
+    "デフォルトの外観…",
+    "기본 모양…",
+    "默认外观…",
+    "預設外觀…"
+  ],
+  "Accessibility Settings…": [
+    "Bedienungshilfen…",
+    "アクセシビリティ設定…",
+    "손쉬운 사용 설정…",
+    "辅助功能设置…",
+    "輔助使用設定…"
+  ],
+  "Export Settings…": [
+    "Einstellungen exportieren…",
+    "設定を書き出す…",
+    "설정 내보내기…",
+    "导出设置…",
+    "輸出設定…"
+  ],
+  "Import Settings…": [
+    "Einstellungen importieren…",
+    "設定を読み込む…",
+    "설정 가져오기…",
+    "导入设置…",
+    "輸入設定…"
+  ],
+  "Restore Previous Settings…": [
+    "Vorherige Einstellungen wiederherstellen…",
+    "以前の設定を復元…",
+    "이전 설정 복원…",
+    "恢复以前的设置…",
+    "回復先前的設定…"
+  ],
+  "Enable": [
+    "Aktivieren",
+    "有効にする",
+    "활성화",
+    "启用",
+    "啟用"
+  ],
+  "Disable": [
+    "Deaktivieren",
+    "無効にする",
+    "비활성화",
+    "停用",
+    "停用"
+  ],
+  "Move to Group…": [
+    "In Gruppe verschieben…",
+    "グループに移動…",
+    "그룹으로 이동…",
+    "移到分组…",
+    "移至群組…"
+  ],
+  "Move Earlier": [
+    "Nach vorne verschieben",
+    "前に移動",
+    "앞으로 이동",
+    "前移",
+    "往前移"
+  ],
+  "Move Later": [
+    "Nach hinten verschieben",
+    "後ろに移動",
+    "뒤로 이동",
+    "后移",
+    "往後移"
+  ],
+  "Ungroup": [
+    "Gruppierung aufheben",
+    "グループを解除",
+    "그룹 해제",
+    "取消分组",
+    "取消群組"
+  ],
+  "Remove": [
+    "Entfernen",
+    "削除",
+    "제거",
+    "移除",
+    "移除"
+  ],
+  "Choose Custom Icon…": [
+    "Eigenes Symbol auswählen…",
+    "カスタムアイコンを選択…",
+    "사용자 지정 아이콘 선택…",
+    "选择自定义图标…",
+    "選擇自訂圖像…"
+  ],
+  "Use Default Icon": [
+    "Standardsymbol verwenden",
+    "デフォルトアイコンを使用",
+    "기본 아이콘 사용",
+    "使用默认图标",
+    "使用預設圖像"
+  ],
+  "Apps": [
+    "Apps",
+    "アプリ",
+    "앱",
+    "应用",
+    "App"
+  ],
+  "No enabled apps": [
+    "Keine aktivierten Apps",
+    "有効なアプリがありません",
+    "활성화된 앱 없음",
+    "没有已启用的应用",
+    "沒有已啟用的 App"
+  ],
+  "Create": [
+    "Erstellen",
+    "作成",
+    "만들기",
+    "创建",
+    "建立"
+  ],
+  "Cancel": [
+    "Abbrechen",
+    "キャンセル",
+    "취소",
+    "取消",
+    "取消"
+  ],
+  "Add": [
+    "Hinzufügen",
+    "追加",
+    "추가",
+    "添加",
+    "加入"
+  ],
+  "Move": [
+    "Verschieben",
+    "移動",
+    "이동",
+    "移动",
+    "移動"
+  ],
+  "Restore": [
+    "Wiederherstellen",
+    "復元",
+    "복원",
+    "恢复",
+    "回復"
+  ],
+  "Quit": [
+    "Beenden",
+    "終了",
+    "종료",
+    "退出",
+    "結束"
+  ],
+  "Import": [
+    "Importieren",
+    "読み込む",
+    "가져오기",
+    "导入",
+    "輸入"
+  ],
+  "Export": [
+    "Exportieren",
+    "書き出す",
+    "내보내기",
+    "导出",
+    "輸出"
+  ],
+  "New App Group": [
+    "Neue App-Gruppe",
+    "新しいアプリグループ",
+    "새 앱 그룹",
+    "新建应用分组",
+    "新增 App 群組"
+  ],
+  "Add Apps to Group": [
+    "Apps zur Gruppe hinzufügen",
+    "グループにアプリを追加",
+    "그룹에 앱 추가",
+    "向分组添加应用",
+    "將 App 加入群組"
+  ],
+  "Move to Group": [
+    "In Gruppe verschieben",
+    "グループに移動",
+    "그룹으로 이동",
+    "移到分组",
+    "移至群組"
+  ],
+  "Menu bar (no group)": [
+    "Menüleiste (keine Gruppe)",
+    "メニューバー（グループなし）",
+    "메뉴 막대 (그룹 없음)",
+    "菜单栏（无分组）",
+    "選單列（無群組）"
+  ],
+  "Applications": [
+    "Apps",
+    "アプリ",
+    "앱",
+    "应用",
+    "App"
+  ],
+  "APPLICATIONS": [
+    "APPS",
+    "アプリ",
+    "앱",
+    "应用",
+    "App"
+  ],
+  "Appearance": [
+    "Darstellung",
+    "外観",
+    "모양",
+    "外观",
+    "外觀"
+  ],
+  "Defaults": [
+    "Standardwerte",
+    "デフォルト",
+    "기본값",
+    "默认设置",
+    "預設設定"
+  ],
+  "Manage Apps…": [
+    "Apps verwalten…",
+    "アプリを管理…",
+    "앱 관리…",
+    "管理应用…",
+    "管理 App…"
+  ],
+  "Add App…": [
+    "App hinzufügen…",
+    "アプリを追加…",
+    "앱 추가…",
+    "添加应用…",
+    "加入 App…"
+  ],
+  "Add Apps…": [
+    "Apps hinzufügen…",
+    "アプリを追加…",
+    "앱 추가…",
+    "添加应用…",
+    "加入 App…"
+  ],
+  "New Group…": [
+    "Neue Gruppe…",
+    "新しいグループ…",
+    "새 그룹…",
+    "新建分组…",
+    "新增群組…"
+  ],
+  "Settings": [
+    "Einstellungen",
+    "設定",
+    "설정",
+    "设置",
+    "設定"
+  ],
+  "Badge style": [
+    "Badge-Stil",
+    "バッジのスタイル",
+    "배지 스타일",
+    "标记样式",
+    "標記樣式"
+  ],
+  "Icon size": [
+    "Symbolgröße",
+    "アイコンのサイズ",
+    "아이콘 크기",
+    "图标大小",
+    "圖像大小"
+  ],
+  "Small": [
+    "Klein",
+    "小",
+    "작게",
+    "小",
+    "小"
+  ],
+  "Normal": [
+    "Normal",
+    "標準",
+    "보통",
+    "标准",
+    "標準"
+  ],
+  "Large": [
+    "Groß",
+    "大",
+    "크게",
+    "大",
+    "大"
+  ],
+  "Text": [
+    "Text",
+    "テキスト",
+    "텍스트",
+    "文字",
+    "文字"
+  ],
+  "Dot": [
+    "Punkt",
+    "ドット",
+    "점",
+    "圆点",
+    "圓點"
+  ],
+  "Circle": [
+    "Kreis",
+    "円",
+    "원",
+    "圆形",
+    "圓形"
+  ],
+  "No unread notifications": [
+    "Nichts ungelesen",
+    "未読がないとき",
+    "읽지 않은 알림 없음",
+    "没有未读通知时",
+    "沒有未讀通知時"
+  ],
+  "App is not running": [
+    "App nicht geöffnet",
+    "アプリが停止中",
+    "앱이 실행 중이 아닐 때",
+    "应用未运行时",
+    "App 未執行時"
+  ],
+  "Show": [
+    "Anzeigen",
+    "表示",
+    "표시",
+    "显示",
+    "顯示"
+  ],
+  "Dim": [
+    "Abblenden",
+    "薄く表示",
+    "흐리게",
+    "淡化",
+    "淡化"
+  ],
+  "Hide": [
+    "Ausblenden",
+    "非表示",
+    "숨기기",
+    "隐藏",
+    "隱藏"
+  ],
+  "Unread attention": [
+    "Bei ungelesenen Inhalten",
+    "未読時のアニメーション",
+    "읽지 않은 알림 효과",
+    "未读提醒效果",
+    "未讀提醒效果"
+  ],
+  "None": [
+    "Keine",
+    "なし",
+    "없음",
+    "无",
+    "無"
+  ],
+  "Gentle pulse": [
+    "Sanftes Pulsieren",
+    "ゆっくり点滅",
+    "부드러운 맥박 효과",
+    "柔和脉动",
+    "柔和脈動"
+  ],
+  "Blink": [
+    "Blinken",
+    "点滅",
+    "깜박임",
+    "闪烁",
+    "閃爍"
+  ],
+  "Double blink": [
+    "Doppeltes Blinken",
+    "2回点滅",
+    "두 번 깜박임",
+    "双闪",
+    "雙閃"
+  ],
+  "Show notifications": [
+    "Mitteilungen anzeigen",
+    "通知を表示",
+    "알림 표시",
+    "显示通知",
+    "顯示通知"
+  ],
+  "Show notification count": [
+    "Anzahl anzeigen",
+    "通知数を表示",
+    "알림 수 표시",
+    "显示通知数量",
+    "顯示通知數量"
+  ],
+  "Pin to menu bar": [
+    "In Menüleiste anheften",
+    "メニューバーに固定",
+    "메뉴 막대에 고정",
+    "固定到菜单栏",
+    "固定至選單列"
+  ],
+  "Show running indicator": [
+    "Laufende Apps markieren",
+    "実行中の印を表示",
+    "실행 상태 표시",
+    "显示运行指示点",
+    "顯示執行指示點"
+  ],
+  "Show activity dots": [
+    "Aktivitätspunkte anzeigen",
+    "アクティビティのドットを表示",
+    "활동 점 표시",
+    "显示活动圆点",
+    "顯示活動圓點"
+  ],
+  "Highlight color": [
+    "Hervorhebungsfarbe",
+    "ハイライトの色",
+    "강조 색상",
+    "高亮颜色",
+    "醒目顏色"
+  ],
+  "Choose Icon…": [
+    "Symbol auswählen…",
+    "アイコンを選択…",
+    "아이콘 선택…",
+    "选择图标…",
+    "選擇圖像…"
+  ],
+  "Default Icon": [
+    "Standardsymbol",
+    "デフォルトアイコン",
+    "기본 아이콘",
+    "默认图标",
+    "預設圖像"
+  ],
+  "Show settings on startup": [
+    "Einstellungen beim Start zeigen",
+    "起動時に設定を表示",
+    "시작 시 설정 표시",
+    "启动时显示设置",
+    "啟動時顯示設定"
+  ],
+  "Launch at login": [
+    "Bei Anmeldung starten",
+    "ログイン時に起動",
+    "로그인 시 실행",
+    "登录时启动",
+    "登入時啟動"
+  ],
+  "Notification Access…": [
+    "Mitteilungszugriff…",
+    "通知へのアクセス…",
+    "알림 접근…",
+    "通知访问权限…",
+    "通知存取權限…"
+  ],
+  "Login Items Settings…": [
+    "Anmeldeobjekte…",
+    "ログイン項目の設定…",
+    "로그인 항목 설정…",
+    "登录项设置…",
+    "登入項目設定…"
+  ],
+  "No apps in this group yet.": [
+    "Diese Gruppe enthält noch keine Apps.",
+    "このグループにはまだアプリがありません。",
+    "이 그룹에는 아직 앱이 없습니다.",
+    "此分组中还没有应用。",
+    "此群組尚無 App。"
+  ],
+  "Add an app to get started": [
+    "Zum Start eine App hinzufügen",
+    "アプリを追加して開始",
+    "앱을 추가하여 시작하세요",
+    "添加应用以开始使用",
+    "加入 App 以開始使用"
+  ],
+  "Used for newly added apps and groups.": [
+    "Für neu hinzugefügte Apps und Gruppen.",
+    "新しく追加するアプリとグループに適用します。",
+    "새로 추가하는 앱과 그룹에 적용됩니다.",
+    "用于新添加的应用和分组。",
+    "套用至新加入的 App 和群組。"
+  ],
+  "Right-click an app for more options.": [
+    "Rechtsklick auf eine App für weitere Optionen.",
+    "アプリを右クリックすると追加の操作が表示されます。",
+    "앱을 우클릭하면 더 많은 옵션이 표시됩니다.",
+    "右键点击应用以查看更多选项。",
+    "按右鍵點選 App 以查看更多選項。"
+  ],
+  "Click an app to customize it. Right-click for more options.": [
+    "App anklicken zum Anpassen. Rechtsklick für weitere Optionen.",
+    "アプリをクリックして設定。右クリックで追加の操作。",
+    "앱을 클릭하여 설정하세요. 우클릭하면 더 많은 옵션이 표시됩니다.",
+    "点击应用进行自定义，右键查看更多选项。",
+    "點選 App 以自訂，按右鍵查看更多選項。"
+  ],
+  "Choose any macOS application to place it in your menu bar.": [
+    "Eine macOS-App auswählen, um sie in der Menüleiste anzuzeigen.",
+    "メニューバーに表示するmacOSアプリを選択してください。",
+    "메뉴 막대에 표시할 macOS 앱을 선택하세요.",
+    "选择任意 macOS 应用，将其放入菜单栏。",
+    "選擇任意 macOS App，將其放入選單列。"
+  ],
+  "Group name": [
+    "Gruppenname",
+    "グループ名",
+    "그룹 이름",
+    "分组名称",
+    "群組名稱"
+  ],
+  "Approve in Login Items…": [
+    "In Anmeldeobjekten erlauben…",
+    "ログイン項目で許可…",
+    "로그인 항목에서 승인…",
+    "在登录项中批准…",
+    "在登入項目中允許…"
+  ],
+  "Settings could not be loaded": [
+    "Einstellungen konnten nicht geladen werden",
+    "設定を読み込めませんでした",
+    "설정을 불러올 수 없습니다",
+    "无法加载设置",
+    "無法載入設定"
+  ],
+  "Backup could not be restored": [
+    "Sicherung konnte nicht wiederhergestellt werden",
+    "バックアップを復元できませんでした",
+    "백업을 복원할 수 없습니다",
+    "无法恢复备份",
+    "無法回復備份"
+  ],
+  "Restore Backup": [
+    "Sicherung wiederherstellen",
+    "バックアップを復元",
+    "백업 복원",
+    "恢复备份",
+    "回復備份"
+  ],
+  "Replace current settings?": [
+    "Aktuelle Einstellungen ersetzen?",
+    "現在の設定を置き換えますか？",
+    "현재 설정을 바꾸시겠습니까?",
+    "替换当前设置？",
+    "取代目前的設定？"
+  ],
+  "Restore previous settings?": [
+    "Vorherige Einstellungen wiederherstellen?",
+    "以前の設定を復元しますか？",
+    "이전 설정을 복원하시겠습니까?",
+    "恢复以前的设置？",
+    "回復先前的設定？"
+  ],
+  "The current file will be preserved in the settings folder.": [
+    "Die aktuelle Datei bleibt im Einstellungsordner erhalten.",
+    "現在のファイルは設定フォルダに保存されます。",
+    "현재 파일은 설정 폴더에 보존됩니다.",
+    "当前文件将保留在设置文件夹中。",
+    "目前的檔案將保留在設定檔案夾中。"
+  ],
+  "Your file will be preserved. Restore the previous backup to continue.\n\n{error}": [
+    "Ihre Datei bleibt erhalten. Stellen Sie die vorherige Sicherung wieder her, um fortzufahren.\n\n{error}",
+    "ファイルは保持されます。続行するには以前のバックアップを復元してください。\n\n{error}",
+    "파일은 보존됩니다. 계속하려면 이전 백업을 복원하세요.\n\n{error}",
+    "您的文件将被保留。请恢复以前的备份以继续。\n\n{error}",
+    "您的檔案將保留。請回復先前的備份以繼續。\n\n{error}"
+  ],
+  "Import {count} top-level items. Your current settings will be kept as the previous backup.": [
+    "{count} Elemente der obersten Ebene importieren. Die aktuellen Einstellungen bleiben als vorherige Sicherung erhalten.",
+    "最上位の項目を{count}件読み込みます。現在の設定は以前のバックアップとして保持されます。",
+    "최상위 항목 {count}개를 가져옵니다. 현재 설정은 이전 백업으로 보존됩니다.",
+    "导入 {count} 个顶层项目。当前设置将保留为以前的备份。",
+    "輸入 {count} 個最上層項目。目前設定將保留為先前的備份。"
+  ],
+  "Export failed": [
+    "Export fehlgeschlagen",
+    "書き出しに失敗しました",
+    "내보내기 실패",
+    "导出失败",
+    "輸出失敗"
+  ],
+  "Import failed": [
+    "Import fehlgeschlagen",
+    "読み込みに失敗しました",
+    "가져오기 실패",
+    "导入失败",
+    "輸入失敗"
+  ],
+  "Cannot import settings": [
+    "Einstellungen können nicht importiert werden",
+    "設定を読み込めません",
+    "설정을 가져올 수 없습니다",
+    "无法导入设置",
+    "無法輸入設定"
+  ],
+  "Restore failed": [
+    "Wiederherstellung fehlgeschlagen",
+    "復元に失敗しました",
+    "복원 실패",
+    "恢复失败",
+    "回復失敗"
+  ],
+  "Cannot create group": [
+    "Gruppe kann nicht erstellt werden",
+    "グループを作成できません",
+    "그룹을 만들 수 없습니다",
+    "无法创建分组",
+    "無法建立群組"
+  ],
+  "Cannot move item": [
+    "Element kann nicht verschoben werden",
+    "項目を移動できません",
+    "항목을 이동할 수 없습니다",
+    "无法移动项目",
+    "無法移動項目"
+  ],
+  "Cannot move app": [
+    "App kann nicht verschoben werden",
+    "アプリを移動できません",
+    "앱을 이동할 수 없습니다",
+    "无法移动应用",
+    "無法移動 App"
+  ],
+  "Cannot use this icon": [
+    "Dieses Symbol kann nicht verwendet werden",
+    "このアイコンは使用できません",
+    "이 아이콘을 사용할 수 없습니다",
+    "无法使用此图标",
+    "無法使用此圖像"
+  ],
+  "Unable to save settings": [
+    "Einstellungen können nicht gespeichert werden",
+    "設定を保存できません",
+    "설정을 저장할 수 없습니다",
+    "无法保存设置",
+    "無法儲存設定"
+  ],
+  "Name your group and choose apps or groups to include.": [
+    "Benennen Sie die Gruppe und wählen Sie Apps oder Gruppen aus.",
+    "グループに名前を付け、含めるアプリやグループを選択してください。",
+    "그룹 이름을 입력하고 포함할 앱이나 그룹을 선택하세요.",
+    "为分组命名，并选择要包含的应用或分组。",
+    "為群組命名，並選擇要包含的 App 或群組。"
+  ],
+  "Selected apps will move from their current location into this group.": [
+    "Ausgewählte Apps werden aus ihrer aktuellen Position in diese Gruppe verschoben.",
+    "選択したアプリは現在の場所からこのグループに移動します。",
+    "선택한 앱은 현재 위치에서 이 그룹으로 이동합니다.",
+    "选中的应用将从当前位置移入此分组。",
+    "所選 App 將從目前位置移入此群組。"
+  ],
+  "No other apps available": [
+    "Keine weiteren Apps verfügbar",
+    "他のアプリがありません",
+    "사용 가능한 다른 앱이 없습니다",
+    "没有其他可用应用",
+    "沒有其他可用 App"
+  ],
+  "Add an app in Manage Apps first, or move a group using its right-click menu.": [
+    "Fügen Sie unter Apps verwalten eine App hinzu oder verschieben Sie eine Gruppe über deren Kontextmenü.",
+    "「アプリを管理」でアプリを追加するか、グループの右クリックメニューで移動してください。",
+    "먼저 앱 관리에서 앱을 추가하거나 우클릭 메뉴로 그룹을 이동하세요.",
+    "请先在“管理应用”中添加应用，或使用右键菜单移动分组。",
+    "請先在「管理 App」中加入 App，或使用右鍵選單移動群組。"
+  ],
+  "Add apps to this group later.": [
+    "Fügen Sie dieser Gruppe später Apps hinzu.",
+    "後からこのグループにアプリを追加できます。",
+    "나중에 이 그룹에 앱을 추가할 수 있습니다.",
+    "稍后可向此分组添加应用。",
+    "稍後可將 App 加入此群組。"
+  ],
+  "Enter a group name": [
+    "Gruppennamen eingeben",
+    "グループ名を入力",
+    "그룹 이름 입력",
+    "输入分组名称",
+    "輸入群組名稱"
+  ],
+  "Group names cannot be blank.": [
+    "Gruppennamen dürfen nicht leer sein.",
+    "グループ名は空にできません。",
+    "그룹 이름은 비워 둘 수 없습니다.",
+    "分组名称不能为空。",
+    "群組名稱不可空白。"
+  ],
+  "Approve Launch at Login": [
+    "Start bei Anmeldung erlauben",
+    "ログイン時の起動を許可",
+    "로그인 시 실행 승인",
+    "批准登录时启动",
+    "允許登入時啟動"
+  ],
+  "macOS needs your approval. Open Login Items and enable Pipmark.": [
+    "macOS benötigt Ihre Zustimmung. Öffnen Sie die Anmeldeobjekte und aktivieren Sie Pipmark.",
+    "macOSでの許可が必要です。ログイン項目を開き、Pipmarkを有効にしてください。",
+    "macOS 승인이 필요합니다. 로그인 항목에서 Pipmark를 활성화하세요.",
+    "macOS 需要您的批准。请打开登录项并启用 Pipmark。",
+    "macOS 需要您的允許。請開啟登入項目並啟用 Pipmark。"
+  ],
+  "Unable to update Launch at Login": [
+    "Start bei Anmeldung kann nicht geändert werden",
+    "ログイン時の起動を変更できません",
+    "로그인 시 실행을 변경할 수 없습니다",
+    "无法更新登录时启动设置",
+    "無法更新登入時啟動設定"
+  ],
+  "Open {app}": [
+    "{app} öffnen",
+    "{app}を開く",
+    "{app} 열기",
+    "打开 {app}",
+    "開啟 {app}"
+  ],
+  "{app} — {count} unread": [
+    "{app} — {count} ungelesen",
+    "{app} — 未読{count}件",
+    "{app} — 읽지 않음 {count}개",
+    "{app} — {count} 条未读",
+    "{app} — {count} 則未讀"
+  ],
+  "{app} — Unread notifications": [
+    "{app} — Ungelesene Mitteilungen",
+    "{app} — 未読の通知",
+    "{app} — 읽지 않은 알림",
+    "{app} — 未读通知",
+    "{app} — 未讀通知"
+  ],
+  "Accessibility permission is required to read Dock badges": [
+    "Zum Lesen der Dock-Badges ist die Berechtigung für Bedienungshilfen erforderlich",
+    "Dockのバッジを読み取るにはアクセシビリティの許可が必要です",
+    "Dock 배지를 읽으려면 손쉬운 사용 권한이 필요합니다",
+    "读取 Dock 标记需要辅助功能权限",
+    "讀取 Dock 標記需要輔助使用權限"
+  ],
+  "The Dock is not available": [
+    "Das Dock ist nicht verfügbar",
+    "Dockを利用できません",
+    "Dock을 사용할 수 없습니다",
+    "Dock 不可用",
+    "Dock 無法使用"
+  ],
+  "Dock Accessibility request failed ({code})": [
+    "Dock-Anfrage über Bedienungshilfen fehlgeschlagen ({code})",
+    "Dockへのアクセシビリティ要求に失敗しました（{code}）",
+    "Dock 손쉬운 사용 요청 실패 ({code})",
+    "Dock 辅助功能请求失败（{code}）",
+    "Dock 輔助使用要求失敗（{code}）"
+  ],
+  "Trash": [
+    "Papierkorb",
+    "ゴミ箱",
+    "휴지통",
+    "废纸篓",
+    "垃圾桶"
+  ],
+  "Add Trash": [
+    "Papierkorb hinzufügen",
+    "ゴミ箱を追加",
+    "휴지통 추가",
+    "添加废纸篓",
+    "加入垃圾桶"
+  ],
+  "Cannot open Trash": [
+    "Papierkorb kann nicht geöffnet werden",
+    "ゴミ箱を開けません",
+    "휴지통을 열 수 없습니다",
+    "无法打开废纸篓",
+    "無法打開垃圾桶"
+  ],
+  "The Dock Trash item is not available": [
+    "Der Papierkorb im Dock ist nicht verfügbar",
+    "Dockのゴミ箱を利用できません",
+    "Dock의 휴지통을 사용할 수 없습니다",
+    "Dock 中的废纸篓不可用",
+    "Dock 中的垃圾桶無法使用"
+  ],
+  "Drop apps here, or click an app to customize it.": [
+    "Apps hier ablegen oder zum Anpassen anklicken.",
+    "アプリをここにドロップするか、クリックしてカスタマイズします。",
+    "앱을 여기에 놓거나 클릭하여 설정하세요.",
+    "将应用拖到此处，或点击应用进行自定义。",
+    "將 App 拖到此處，或點按 App 進行自訂。"
+  ],
+  "Choose Applications": [
+    "Programme auswählen",
+    "アプリケーションを選択",
+    "응용 프로그램 선택",
+    "选择应用程序",
+    "選擇應用程式"
+  ],
+  "Choose Custom SVG Icon": [
+    "Eigenes SVG-Symbol auswählen",
+    "カスタムSVGアイコンを選択",
+    "사용자 지정 SVG 아이콘 선택",
+    "选择自定义 SVG 图标",
+    "選擇自訂 SVG 圖像"
+  ],
+  "Export Settings": [
+    "Einstellungen exportieren",
+    "設定を書き出す",
+    "설정 내보내기",
+    "导出设置",
+    "匯出設定"
+  ],
+  "Import Settings": [
+    "Einstellungen importieren",
+    "設定を読み込む",
+    "설정 가져오기",
+    "导入设置",
+    "匯入設定"
+  ],
+  "Shift-click apps to select them, then create a group.": [
+    "Apps mit Umschalt-Klick auswählen und dann eine Gruppe erstellen.",
+    "Shiftキーを押しながらアプリを選択し、グループを作成します。",
+    "Shift 키를 누른 채 앱을 선택한 다음 그룹을 만드세요.",
+    "按住 Shift 点击选择应用，然后创建分组。",
+    "按住 Shift 點按選取 App，然後建立群組。"
+  ],
+  "Application unavailable": [
+    "App nicht verfügbar",
+    "アプリを利用できません",
+    "앱을 사용할 수 없습니다",
+    "应用不可用",
+    "App 無法使用"
+  ],
+  "Could not find {app}. Reinstall it or add its new location.": [
+    "{app} wurde nicht gefunden. Installiere die App erneut oder füge ihren neuen Speicherort hinzu.",
+    "{app}が見つかりません。再インストールするか、新しい場所から追加してください。",
+    "{app}을(를) 찾을 수 없습니다. 다시 설치하거나 새 위치에서 추가하세요.",
+    "找不到 {app}。请重新安装或从新位置添加。",
+    "找不到 {app}。請重新安裝或從新位置加入。"
+  ],
+  "macOS could not open {app}.": [
+    "macOS konnte {app} nicht öffnen.",
+    "macOSで{app}を開けませんでした。",
+    "macOS에서 {app}을(를) 열 수 없습니다.",
+    "macOS 无法打开 {app}。",
+    "macOS 無法打開 {app}。"
+  ],
+  "Empty Trash…": [
+    "Papierkorb entleeren…",
+    "ゴミ箱を空にする…",
+    "휴지통 비우기…",
+    "清倒废纸篓…",
+    "清倒垃圾桶…"
+  ],
+  "Cannot complete Trash action": [
+    "Papierkorbaktion konnte nicht abgeschlossen werden",
+    "ゴミ箱の操作を完了できません",
+    "휴지통 작업을 완료할 수 없습니다",
+    "无法完成废纸篓操作",
+    "無法完成垃圾桶操作"
+  ],
+  "The Dock Empty Trash action is unavailable or disabled": [
+    "Die Dock-Aktion zum Entleeren des Papierkorbs ist nicht verfügbar oder deaktiviert",
+    "Dockの「ゴミ箱を空にする」操作が利用できないか無効です",
+    "Dock의 휴지통 비우기 작업을 사용할 수 없거나 비활성화되어 있습니다",
+    "Dock 的清倒废纸篓操作不可用或已停用",
+    "Dock 的清倒垃圾桶操作無法使用或已停用"
+  ],
+  "Redo": [
+    "Wiederholen",
+    "やり直す",
+    "다시 실행",
+    "重做",
+    "重做"
+  ],
+  "Window": [
+    "Fenster",
+    "ウインドウ",
+    "윈도우",
+    "窗口",
+    "視窗"
+  ],
+  "Close": [
+    "Schließen",
+    "閉じる",
+    "닫기",
+    "关闭",
+    "關閉"
+  ],
+  "Minimize": [
+    "Minimieren",
+    "しまう",
+    "최소화",
+    "最小化",
+    "縮小"
+  ],
+  "About Pipmark": [
+    "Über Pipmark",
+    "Pipmarkについて",
+    "Pipmark에 관하여",
+    "关于 Pipmark",
+    "關於 Pipmark"
+  ],
+  "General": [
+    "Allgemein",
+    "一般",
+    "일반",
+    "通用",
+    "一般"
+  ],
+  "Icons": [
+    "Symbole",
+    "アイコン",
+    "아이콘",
+    "图标",
+    "圖像"
+  ],
+  "Menu bar icon": [
+    "Menüleistensymbol",
+    "メニューバーのアイコン",
+    "메뉴 막대 아이콘",
+    "菜单栏图标",
+    "選單列圖像"
+  ],
+  "Advanced": [
+    "Erweitert",
+    "詳細",
+    "고급",
+    "高级",
+    "進階"
+  ],
+  "Done": [
+    "Fertig",
+    "完了",
+    "완료",
+    "完成",
+    "完成"
+  ]
+}
