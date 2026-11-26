@@ -2,7 +2,7 @@
 
 **Your app badges, at a glance.**
 
-[Website](https://pipmark.io) · [Download DMG](https://pipmark.io/download)
+[Website](https://pipmark.io) · [Download DMG](https://pipmark.io/download) · [Contact](mailto:contact@pipmark.io)
 
 Pipmark brings macOS app notification badges into the menu bar. Choose your apps,
 group them together, and customize their icons, counts, and visibility—all in a
@@ -16,6 +16,8 @@ compact native interface built with Rust and AppKit.
 Requires macOS 13 or later; current builds support Apple silicon. Reading Dock
 badges requires Accessibility access. Live badge monitoring still needs validation
 with that permission; see [validation and remaining gaps](docs/PARITY.md).
+
+Questions or feedback? Email [contact@pipmark.io](mailto:contact@pipmark.io).
 
 ## Build
 
