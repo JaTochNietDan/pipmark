@@ -1,45 +1,54 @@
-# Pipmark updates
+# Pipmark updates and releases
 
-Pipmark embeds Sparkle 2.10.1 (SHA-256 pinned in `scripts/fetch_sparkle.py`).
-The Rust app loads its bundled framework on the main thread, retains the standard
-updater controller, and lets Sparkle own scheduling, consent and update UI.
-“Check for Updates…” targets Sparkle directly, including its menu validation.
-Unbundled development/test binaries do not start the updater.
+Pipmark embeds Sparkle 2.10.1, downloaded with a pinned SHA-256. The Rust app
+loads its bundled framework on the main thread and retains Sparkle's standard
+updater controller. Sparkle owns scheduling, consent, native update UI, and menu
+validation; the app adds no updater polling loop. Unbundled development binaries
+do not start the updater.
 
-The feed is `https://github.com/JaTochNietDan/pipmark/releases/latest/download/appcast.xml`.
-The endpoint is live and was verified against the published 0.1.0 archive.
 Automatic checks use Sparkle's consent flow and a daily interval. Automatic
-installation is disabled by default; users review available updates.
+installation is disabled by default. “Check for Updates…” is available in the
+app and menu-bar menus.
 
-The local Ed25519 private key is kept in macOS Keychain under account
-`club.oleary.pipmark`; the public key is embedded in Info.plist. Never commit the
-private key. GitHub Actions signing credentials are provisioned as encrypted repository
-secrets. The CI job uses a disposable keychain and removes it after signing.
-Local signing uses the existing Keychain.
+The live feed is:
+`https://github.com/JaTochNietDan/pipmark/releases/latest/download/appcast.xml`.
+Every normal release must include this asset. Pre-releases do not advance it.
 
-Release order:
+## Release cycle
 
-1. Increment Cargo.toml version (also CFBundleVersion, used for update ordering).
-2. `mise run package-signed` signs Sparkle helpers inside-out and the outer app.
-3. Notarize the ZIP, staple the app, and repackage the stapled app.
-4. `python3 scripts/appcast.py dist/pipmark-VERSION-arm64-developer-id.zip --download-prefix https://github.com/JaTochNietDan/pipmark/releases/download/vVERSION/`
-5. Upload the final ZIP and appcast.xml to the same normal GitHub release.
+1. Increment Cargo.toml's version. This also sets CFBundleVersion for update ordering.
+2. Push a matching `vVERSION` tag.
+3. GitHub tests and builds the app, signs Sparkle helpers inside-out, and notarizes
+   the app. It staples Apple's ticket before packaging.
+4. The job creates a DMG containing Pipmark and an Applications shortcut, signs
+   and notarizes the DMG, and staples its ticket.
+5. It generates the final DMG checksum and Sparkle Ed25519 signature, then
+   publishes a normal GitHub release. The ZIP remains a secondary download.
 
-Generate the feed only after final packaging: changing the archive invalidates
-its Ed25519 signature. Every normal release must include appcast.xml because the
-application uses GitHub's latest-release URL. Pre-releases do not advance it.
-An actual older-to-newer installation test is still required before publishing.
+Locally, `mise run dmg` creates a signed disk image. It does not notarize it.
+`scripts/release.py` performs the complete packaging/notarization flow using
+`PIPMARK_NOTARY_PROFILE` and optional `PIPMARK_NOTARY_KEYCHAIN`.
 
-Initial 0.1.0 notarization was accepted by Apple on 2026-11-25. The ticket was
-stapled and Gatekeeper reports Notarized Developer ID.
+The local Ed25519 key is stored in macOS Keychain under account
+`club.oleary.pipmark`. Only its public key is embedded in the app. GitHub Actions
+credentials are encrypted repository secrets; CI uses and deletes a disposable
+keychain. Never commit signing credentials.
 
-GitHub Release run 45742615962 passed and published v0.1.0 as a normal release.
-The public download passed SHA-256, Sparkle Ed25519, deep codesign, stapler, and
-Gatekeeper verification. The website runs on Cloudflare Workers; GitHub hosts
-source, build workflows, release archives, and the update feed.
+Generate the feed only after final packaging/stapling. Any archive change
+invalidates its Sparkle signature. `scripts/appcast.py` signs the finalized DMG,
+using the Keychain locally or `PIPMARK_SPARKLE_KEY_FILE` in CI.
 
-The primary distribution is now a signed, notarized DMG with an Applications
-shortcut. CI notarizes/staples the app, creates the DMG, then notarizes/staples
-the image before generating its checksum and Sparkle signature. The feed points
-to the versioned DMG; the website /download endpoint selects the latest DMG.
-ZIP assets are retained as a secondary format.
+## Verification
+
+The first normal release passed GitHub Actions and Apple notarization. The
+published DMG passed SHA-256, Sparkle Ed25519, stapled-ticket and Gatekeeper
+checks. A read-only mount verified the enclosed signed app and Applications
+shortcut. A native fixture verified updater startup, action targeting and menu
+validation. A full older-to-newer installation test remains unverified.
+
+## Website
+
+Cloudflare Worker `pipmark-site` serves the site. Terraform in the ops repository
+manages pipmark.io and www.pipmark.io. `/download` selects the latest release's
+Apple-silicon DMG, falling back to the release page if GitHub's API is unavailable.
+GitHub hosts source, builds, releases, and the update feed; no GitHub Pages is used.
