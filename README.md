@@ -1,40 +1,49 @@
-# Pipmark
+<p align="center">
+  <img src="site/icon.svg" width="80" height="80" alt="Pipmark icon">
+</p>
 
-**Your app badges, at a glance.**
+<h1 align="center">Pipmark</h1>
+<p align="center"><strong>Your app badges, at a glance.</strong></p>
+<p align="center">
+  <a href="https://pipmark.io/download"><strong>Download for Mac</strong></a> ·
+  <a href="https://pipmark.io">Website</a> ·
+  <a href="mailto:contact@pipmark.io">Get in touch</a>
+</p>
+<p align="center">Free · macOS 13+ · Apple silicon</p>
 
-[Website](https://pipmark.io) · [Download DMG](https://pipmark.io/download) · [Contact](mailto:contact@pipmark.io)
+Keep an eye on what’s waiting without opening every app. Pipmark brings your
+Mac’s app notification badges into the menu bar, with a clean, native interface
+that feels right at home.
 
-Pipmark brings macOS app notification badges into the menu bar. Choose your apps,
-group them together, and customize their icons, counts, and visibility—all in a
-compact native interface built with Rust and AppKit.
+<p align="center">
+  <img src="site/settings.png" width="600" alt="Pipmark’s native settings, showing app icons, a Communications group, and simple on/off switches.">
+  <br>
+  <sub>Your apps. A tidy list. Just the controls you need.</sub>
+</p>
 
-- Real application icons and simple settings.
-- Nested groups, custom SVG icons, and optional attention effects.
-- No browser runtime or rendering loop; unchanged badges aren't redrawn.
-- Native Sparkle update checks and signed update archives.
+## A little utility that fits your day
 
-Requires macOS 13 or later; current builds support Apple silicon. Reading Dock
-badges requires Accessibility access. Live badge monitoring still needs validation
-with that permission; see [validation and remaining gaps](docs/PARITY.md).
+- **See what needs your attention.** Keep your chosen apps’ badge counts in view while you work.
+- **Keep your menu bar tidy.** Bring related apps together in groups.
+- **Make it yours.** Choose icons, badge styles, and when each item appears.
+- **Feel at home on your Mac.** Familiar controls, real app icons, and light and dark appearances.
+- **Stay up to date.** Check for updates right inside Pipmark.
 
-Questions or feedback? Email [contact@pipmark.io](mailto:contact@pipmark.io).
+## Get started
 
-## Build
+1. [Download the DMG](https://pipmark.io/download) and drag Pipmark to Applications.
+2. Open Pipmark and allow Accessibility access so it can read Dock badges.
+3. Add your apps, choose how they appear, and get back to what you were doing.
 
-```sh
-mise run test
-mise run build
-open dist/Pipmark.app
-```
+Pipmark is signed and notarized by Apple. See [current capabilities and known limitations](docs/PARITY.md) for compatibility and validation details.
 
-Use `mise run dmg` for a Developer ID–signed disk image. Sparkle's framework
-is downloaded at a pinned version with SHA-256 verification. See
-[update and release setup](docs/UPDATES.md) for notarization and feed generation.
-Tagged releases build, sign, notarize, and publish automatically on GitHub.
-The Sparkle feed is live alongside the latest normal release.
+## Say hello
 
-Settings are stored in `~/Library/Application Support/Pipmark/settings.json`.
-Existing Badgeify Native settings are reused if present. Set `PIPMARK_CONFIG` for
-an isolated configuration. Import/export includes custom icons.
+Questions, ideas, or feedback? Email **[contact@pipmark.io](mailto:contact@pipmark.io)**
+or [open an issue](https://github.com/JaTochNietDan/pipmark/issues).
+
+---
+
+[Development](docs/DEVELOPMENT.md) · [Releases and updates](docs/UPDATES.md)
 
 Pipmark is an independent project, unaffiliated with Badgeify.
